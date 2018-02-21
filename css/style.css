@@ -1,0 +1,117 @@
+html, body{
+  background-color:	#f6f5f5;
+}
+
+.sm-icons{
+  font-size: 2.5em;
+  color: #1e88e5;
+}
+
+/*
+ * Header
+ */
+
+header{
+  color: #FFF;
+}
+
+circle{
+  stroke: #000;
+  stroke-width: 10%;
+  fill: #98009b;
+}
+
+circle:hover{
+  fill:#943c96;
+}
+
+.jumbotron{
+  background-color: inherit;
+  padding-bottom: 4rem;
+  border-radius: 0px;
+}
+
+.nav-link{
+  color: #FFF !important;
+  font-size: 1.3em;
+  opacity: 0.5
+}
+
+.nav-link:hover{
+  opacity: 1;
+}
+
+.navbar-toggler{
+  color: #FFF;
+  border: 1px solid #555 !important;
+}
+/* End Header*/
+
+/*
+ * Footer
+ */
+
+footer{
+  position: relative;
+  background-color: #420043;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #FFF
+}
+
+.fa-social {
+  color: white;
+  opacity: 0.8
+}
+.fa-social:hover {
+  opacity: 0.5
+}
+
+/* Fixed Copyright*/
+.copyright{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* End Footer*/
+
+.bg-primary{
+  background-color:#420043 !important;
+}
+
+.bg-dark{
+  background-color:#2b002b !important;
+}
+
+/* Card Links */
+.card-link{
+  color: #000
+}
+
+.card-link:hover, .card-link:visited, .card-link:active{
+  color: #282828;
+  text-decoration: underline;
+}
+
+/* Forms*/
+.form{
+  background-color: inherit;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #CCC;
+  font-size: 1.5em;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form:focus {
+    outline: 0;
+    border-bottom: 2px solid #555;
+}
+
+/* Pagination */
+.page-link{
+  color: #343a40;
+}
