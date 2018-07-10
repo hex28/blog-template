@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './footer.jsx';
-import Header from './header.jsx';
-import Sidebar from './sidebar.jsx';
+import Footer from './footer/footer.jsx';
+import Header from './header/header.jsx';
+import Sidebar from './partials/sidebar.jsx';
+import Main from './main.jsx';
 
 /*
  * Rendering for the Footer, Header, Sidebar
@@ -11,3 +12,4 @@ import Sidebar from './sidebar.jsx';
 ReactDOM.render(<Footer/>, footer);
 ReactDOM.render(<Header/>, header);
 ReactDOM.render(<Sidebar/>, sidebar);
+ReactDOM.render(<Main/>, main);

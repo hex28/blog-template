@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './about.jsx';
-import Contact from './contact.jsx';
+import About from '../about.jsx';
+import Contact from '../contact.jsx';
 
 export default class Navigation extends React.Component {
   constructor(props){

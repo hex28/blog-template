@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './navigation.jsx'
+import Navigation from '../partials/navigation.jsx'
 
 export default class Header extends React.Component {
 
